@@ -1,29 +1,72 @@
-# Tunhub-music-player
-Project: TunHub - Song Playing Website
-TunHub is a Spring Boot-powered song playing website that I designed and developed from scratch, combining HTML, CSS, MySQL, and API testing to ensure seamless functionality. This platform boasts a vast music library, an intuitive user interface, and a secure payment gateway for premium features. Users can explore genres, create playlists, and effortlessly share their favorite tunes with friends and family. TunHub offers an immersive music experience, making it the perfect destination for music enthusiasts to discover, enjoy, and share their passion for music.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TunHub - Song Playing Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Page / Landing Page -->
+    <section id="home">
+        <!-- Your content here -->
+        <h1>Welcome to TunHub - Discover, Enjoy, Share!</h1>
+        <p>Explore a vast music library, create playlists, and share your favorite tunes with friends and family.</p>
+        <img src="https://github.com/kaifk2/Tunhub-music-player/assets/118038413/53b11ff3-2012-4f73-a243-e66110c34e07" alt="TunHub Home">
+    </section>
 
-<H1>HOME PAGE OR landing page<H1>
-![Screenshot (92)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/53b11ff3-2012-4f73-a243-e66110c34e07)
-![Screenshot (101)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/ca9e86ca-88cd-4e56-95ef-1bc0ec522fc5)
-![Screenshot (102)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/c9d60866-6df8-4121-8220-acaf5235431a)
+    <!-- Login Page -->
+    <section id="login">
+        <!-- Your content here -->
+        <h2>Login to TunHub</h2>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+    </section>
 
+    <!-- Registration Page -->
+    <section id="registration">
+        <!-- Your content here -->
+        <h2>Register for TunHub</h2>
+        <form>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Register">
+        </form>
+    </section>
 
-<H2>Login</H2>
-![Screenshot (93)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/c9bc0d5c-27a4-40a7-919a-dcacf15f973f)
+    <!-- Payment Gateway -->
+    <section id="payment">
+        <!-- Your content here -->
+        <h2>Upgrade to Premium</h2>
+        <p>Unlock exclusive features with TunHub Premium.</p>
+        <img src="https://github.com/kaifk2/Tunhub-music-player/assets/118038413/cae0a13c-6df4-4c78-abe7-1ed8eaef1b77" alt="Payment Gateway">
+    </section>
 
-<H2>Registration</H2>
-![Screenshot (94)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/dc137ac0-85d0-4944-affe-14ff8b4263d9)
+    <!-- Services -->
+    <section id="services">
+        <!-- Your content here -->
+        <h2>Our Services</h2>
+        <ul>
+            <li>Explore Genres</li>
+            <li>Create Playlists</li>
+            <li>Share Music</li>
+            <li>Discover New Artists</li>
+        </ul>
+        <img src="https://github.com/kaifk2/Tunhub-music-player/assets/118038413/2da1901d-276f-4276-ab9f-7ec78f1a8e32" alt="Services">
+    </section>
 
-<h2>Payment Gateway</h2>
-![Screenshot (97)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/cae0a13c-6df4-4c78-abe7-1ed8eaef1b77)
-![Screenshot (99)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/7f7a25b2-606e-4232-b930-842f0e0aabba)
-
-<h2>Service's</h2>
-![Screenshot (100)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/2da1901d-276f-4276-ab9f-7ec78f1a8e32)
-
-<h2>music player </h2>
-![Screenshot (95)](https://github.com/kaifk2/Tunhub-music-player/assets/118038413/4feedd35-925a-4fdb-9074-8a63ec1b6242)
-
-
-
-
+    <!-- Music Player -->
+    <section id="music-player">
+        <!-- Your content here -->
+        <h2>Now Playing</h2>
+        <div class="player">
+            <!-- Music player interface here -->
+        </div>
+        <img src="https://github.com/kaifk2/Tunhub-music-player/assets/118038413/4feedd35-925a-4fdb-9074-8a63ec1b6242" alt="Music Player">
+    </section>
+</body>
+</html>
